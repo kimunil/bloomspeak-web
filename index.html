@@ -147,7 +147,7 @@ html[lang="en"] h1 [data-en],html[lang="en"] .lead [data-en]{display:initial}
     <h2 style="font-size:26px"><span data-ko>먼저 만나보세요</span><span data-en>Be the first</span></h2>
     <p class="lead" style="margin:8px 0 4px"><span data-ko>출시 알림 + 사전신청 혜택을 보내드려요.</span><span data-en>We'll send launch news + early perks.</span></p>
     <!-- Formspree 등 폼 서비스 endpoint 로 교체하세요 -->
-    <form id="ef" action="https://formspree.io/f/your-id" method="POST" onsubmit="return submitEmail(event)">
+    <form id="ef" action="https://formspree.io/f/mbdvaljd" method="POST" onsubmit="return submitEmail(event)">
       <input type="email" name="email" id="em" required placeholder="you@email.com">
       <button class="btn block" type="submit" style="margin-top:12px"><span data-ko>사전신청하기</span><span data-en>Notify me</span></button>
     </form>
@@ -169,10 +169,12 @@ html[lang="en"] h1 [data-en],html[lang="en"] .lead [data-en]{display:initial}
 <p class="disc">© 2026 BLOOM English. 가격·일정·수치는 가정 예시이며 확정 전 변경될 수 있습니다.</p></div></footer>
 
 <script>
-// ===== 사전신청 연동 설정 =====
-// 옵션A) 백엔드(bloom-backend) /signup 사용: BACKEND 에 배포된 API 주소 (예: "https://api.bloomspeak.kr")
-// 옵션B) 정적만 쓸 때: <form action> 을 Formspree/Tally endpoint 로 교체
-const BACKEND = ""; // 비우면 데모(또는 Formspree action) 사용
+// ===== 연동 설정 (값 채우면 자동 활성) =====
+const GA4_ID    = "";   // "G-XXXXXXXXXX"  Google Analytics 4 측정 ID
+const FORMSPREE = "https://formspree.io/f/mbdvaljd";  // BLOOM 사전신청
+const BACKEND   = "";   // (대안) 자체 백엔드 /signup 주소
+if(GA4_ID){var sg=document.createElement("script");sg.async=true;sg.src="https://www.googletagmanager.com/gtag/js?id="+GA4_ID;document.head.appendChild(sg);
+  window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}window.gtag=gtag;gtag("js",new Date());gtag("config",GA4_ID);}
 function toggleLang(){const h=document.documentElement;h.lang=h.lang==='en'?'ko':'en';try{localStorage.setItem('lang',h.lang)}catch(e){}}
 (function(){try{const l=localStorage.getItem('lang');if(l)document.documentElement.lang=l}catch(e){}})();
 async function submitEmail(e){
@@ -180,15 +182,13 @@ async function submitEmail(e){
   var ok=document.getElementById('ok'), em=document.getElementById('em');
   var en=document.documentElement.lang==='en';
   function done(m){ok.style.display='block';ok.textContent=m;em.value='';}
-  if(BACKEND){
-    try{var r=await fetch(BACKEND.replace(/\/$/,'')+'/signup',{method:'POST',headers:{'Content-Type':'application/json'},
-      body:JSON.stringify({email:em.value,lang:document.documentElement.lang,source:'bloomspeak.kr'})});
-      if(r.ok){done(en?'Thanks! You are on the list.':'신청 완료! 출시 소식 보내드릴게요.');return false;}
-      throw new Error('bad');}catch(err){done(en?'Please try again later.':'잠시 후 다시 시도해 주세요.');return false;}
-  }
-  var form=e.target;
-  if(form.action && form.action.indexOf('your-id')<0){ form.submit(); return true; }
-  done(en?'Thanks! (demo - connect a form)':'신청 완료! (데모 - 폼 연동 전)');
-  return false;
+  function track(){ if(window.gtag) gtag('event','sign_up',{method:'landing'}); }
+  var payload={email:em.value,lang:document.documentElement.lang,source:'bloomspeak.kr'};
+  if(BACKEND){try{var r=await fetch(BACKEND.replace(/\/$/,'')+'/signup',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(payload)});
+    if(r.ok){track();done(en?'Thanks! You are on the list.':'신청 완료! 출시 소식 보내드릴게요.');return false;}}catch(err){}}
+  if(FORMSPREE){try{var r2=await fetch(FORMSPREE,{method:'POST',headers:{'Accept':'application/json','Content-Type':'application/json'},body:JSON.stringify(payload)});
+    if(r2.ok){track();done(en?'Thanks! You are on the list.':'신청 완료! 출시 소식 보내드릴게요.');return false;}}catch(err){}
+    done(en?'Please try again later.':'잠시 후 다시 시도해 주세요.');return false;}
+  track();done(en?'Thanks! (demo - connect Formspree)':'신청 완료! (데모 - Formspree 연결 전)');return false;
 }
 </script></body></html>
