@@ -25,6 +25,18 @@
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"WebSite","name":"BLOOM English","url":"https://bloomspeak.kr","inLanguage":["ko","en"]}
 </script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"BLOOM English는 어떤 서비스인가요?","acceptedAnswer":{"@type":"Answer","text":"성인 영어회화 서비스입니다. 의사형 레벨 진단으로 24주 로드맵을 그려주고, 발음이 아니라 문장을 이어 말하는 메소드와 커뮤니티, 완주 환급으로 끝까지 가게 만듭니다."}},
+{"@type":"Question","name":"완주 환급은 어떻게 받나요?","acceptedAnswer":{"@type":"Answer","text":"24주 과정을 주 5회 학습 + 완주 인증 조건으로 끝까지 마치면 낸 수강료를 돌려드립니다. 미완주분은 제외되며 환급 조건은 결제 전 투명하게 고지합니다."}},
+{"@type":"Question","name":"AI 영어 앱과 무엇이 다른가요?","acceptedAnswer":{"@type":"Answer","text":"탭만 하는 학습이 아니라 말하게 만드는 강제 발화와, 또래·라이브·완주 인증방 같은 사람·커뮤니티가 끝까지 끌어주는 점이 다릅니다."}},
+{"@type":"Question","name":"5060 세대도 할 수 있나요?","acceptedAnswer":{"@type":"Answer","text":"네. 목적(여행·손주·뇌건강)에 맞춰 톤과 콘텐츠가 분기되고, 큰 글씨·음성·따뜻한 진행으로 5060 세대도 부담 없이 시작할 수 있습니다."}},
+{"@type":"Question","name":"비용은 얼마인가요?","acceptedAnswer":{"@type":"Answer","text":"구독 월 19,900원, 완주 코스 월 49,000원(완주 시 환급), 프리미엄 코칭 월 129,000원의 3가지 요금제가 있습니다. 평생수강·전화영업은 없으며 언제든 해지할 수 있습니다."}}
+]}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Course","name":"BLOOM 24주 완주 영어회화","description":"진단·로드맵 + 문장 잇는 힘 메소드 + 커뮤니티 + 완주 환급으로 성인을 진짜 말하게 하는 24주 영어회화 코스.","inLanguage":"ko","provider":{"@type":"Organization","name":"BLOOM English","url":"https://bloomspeak.kr"},"offers":{"@type":"Offer","category":"subscription","priceCurrency":"KRW","price":"49000"}}
+</script>
 <style>
 :root{--coral:#F04E6A;--pink:#E8307A;--ame:#6B3FA0;--sap:#1B2A6B;--gold:#D4AF37;--lav:#C9B8E8;--soft:#FAF7FD;--ink:#22264B;--mut:#6B6F86;--line:#ECE4F2;--green:#0F6E56}
 *{margin:0;padding:0;box-sizing:border-box}
@@ -83,6 +95,11 @@ h2{font-size:32px;font-weight:900;margin:8px 0 8px;letter-spacing:-.5px}
 footer{background:#0E0F1F;color:#8a8fa6;font-size:13px;padding:30px 0}
 .footrow{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
 .disc{color:#777;font-size:12px;margin-top:14px;line-height:1.6}
+.faq{max-width:760px;margin:0 auto}
+.faq details{border:1px solid var(--line);border-radius:14px;padding:16px 18px;margin-bottom:10px;background:#fff}
+.faq summary{font-weight:800;cursor:pointer;list-style:none;font-size:16px}
+.faq summary::-webkit-details-marker{display:none}
+.faq p{color:var(--mut);font-weight:600;margin-top:10px;font-size:14px}
 [data-en]{display:none}
 html[lang="en"] [data-ko]{display:none}html[lang="en"] [data-en]{display:initial}
 html[lang="en"] h1 [data-en],html[lang="en"] .lead [data-en]{display:initial}
@@ -166,6 +183,18 @@ html[lang="en"] h1 [data-en],html[lang="en"] .lead [data-en]{display:initial}
   <p class="disc"><span data-ko>가격·환급 조건은 예시이며, 환급은 명시된 완주 조건 충족 시 적용됩니다. 자동결제·해지 정책은 결제 시 고지합니다.</span><span data-en>Prices and refund terms are examples; refund applies on meeting completion conditions.</span></p>
 </div></section>
 
+<section><div class="wrap">
+  <span class="kicker">FAQ</span>
+  <h2><span data-ko>자주 묻는 질문</span><span data-en>Frequently asked questions</span></h2>
+  <div class="faq">
+    <details><summary><span data-ko>BLOOM English는 어떤 서비스인가요?</span><span data-en>What is BLOOM English?</span></summary><p><span data-ko>성인 영어회화 서비스예요. 의사형 진단으로 24주 로드맵을 그려주고, 발음이 아니라 문장을 이어 말하는 메소드와 커뮤니티, 완주 환급으로 끝까지 가게 만듭니다.</span><span data-en>An adult English-speaking service. A doctor-style test maps a 24-week roadmap; the sentence-linking method, community, and completion refund keep you going.</span></p></details>
+    <details><summary><span data-ko>완주 환급은 어떻게 받나요?</span><span data-en>How does the completion refund work?</span></summary><p><span data-ko>주 5회 학습 + 완주 인증으로 24주를 끝까지 마치면 낸 수강료를 돌려드려요. 조건은 결제 전 투명하게 고지합니다.</span><span data-en>Finish the 24 weeks with 5 sessions/week and completion checks, and we refund what you paid.</span></p></details>
+    <details><summary><span data-ko>AI 영어 앱과 뭐가 다른가요?</span><span data-en>How is it different from AI apps?</span></summary><p><span data-ko>탭만 하는 학습이 아니라 말하게 만드는 강제 발화, 또래·라이브·완주 인증방이 끝까지 끌어줘요.</span><span data-en>Not just tapping — speaking is required to progress, and peers and live rooms pull you through.</span></p></details>
+    <details><summary><span data-ko>5060 세대도 할 수 있나요?</span><span data-en>Is it suitable for ages 50-60+?</span></summary><p><span data-ko>네. 목적(여행·손주·뇌건강)에 맞춰 톤과 콘텐츠가 분기되고, 큰 글씨·음성·따뜻한 진행으로 부담 없이 시작할 수 있어요.</span><span data-en>Yes. Tone and content adapt to your goal, with large text, audio and warm guidance.</span></p></details>
+    <details><summary><span data-ko>비용은 얼마인가요?</span><span data-en>How much does it cost?</span></summary><p><span data-ko>구독 월 19,900원, 완주 코스 월 49,000원(완주 시 환급), 프리미엄 코칭 월 129,000원. 평생수강·전화영업 없이 언제든 해지할 수 있어요.</span><span data-en>Subscribe ₩19,900/mo, Completion ₩49,000/mo (refundable), Premium ₩129,000/mo. Cancel anytime.</span></p></details>
+  </div>
+</div></section>
+
 <section class="signup" id="signup"><div class="wrap">
   <div class="form">
     <span class="kicker">EARLY ACCESS</span>
@@ -192,6 +221,7 @@ html[lang="en"] h1 [data-en],html[lang="en"] .lead [data-en]{display:initial}
   <div>hello@bloomspeak.kr · Instagram @bloomspeak · <a href="/privacy.html" style="color:#c9b8e8">개인정보처리방침</a></div>
 </div>
 <p class="disc">© 2026 BLOOM English. 가격·일정·수치는 가정 예시이며 확정 전 변경될 수 있습니다.</p></div></footer>
+
 
 <script>
 const GA4_ID    = "";
