@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://bloomspeak.kr/sitemap.xml
