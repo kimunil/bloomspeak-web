@@ -1,0 +1,97 @@
+<!DOCTYPE html><html lang="ko"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>BLOOM English — Web Client (full)</title>
+<style>
+:root{--coral:#F04E6A;--ame:#6B3FA0;--sap:#1B2A6B;--gold:#D4AF37;--soft:#FAF7FD;--ink:#22264B;--mut:#7B7F9A;--line:#ECE4F2;--green:#0F6E56}
+*{box-sizing:border-box;font-family:'Malgun Gothic',system-ui,sans-serif;margin:0}
+body{background:linear-gradient(160deg,#F3EEFA,#FBF5F8);color:var(--ink);display:flex;justify-content:center;padding:22px}
+.app{width:460px}
+h1{font-size:22px;color:var(--ame)}.sub{color:var(--mut);font-size:12px;margin:4px 0 14px}
+.card{background:#fff;border:1px solid var(--line);border-radius:14px;padding:14px;margin-bottom:12px;box-shadow:0 6px 16px rgba(107,63,160,.06)}
+.card h2{font-size:14px;color:var(--sap);margin-bottom:8px}
+label{font-size:11px;color:var(--mut);display:block;margin:6px 0 3px}
+input,select{width:100%;padding:9px;border:1.5px solid var(--line);border-radius:9px;font-size:13px}
+button{background:var(--coral);color:#fff;border:none;border-radius:9px;padding:9px 12px;font-weight:800;font-size:13px;cursor:pointer;margin-top:8px}
+button.ghost{background:#fff;color:var(--ame);border:1.5px solid #C9B8E8}
+button.sm{padding:6px 10px;font-size:12px;margin:4px 4px 0 0}
+.row{display:flex;gap:8px}.row>*{flex:1}
+.out{background:var(--soft);border:1px solid var(--line);border-radius:9px;padding:9px;font-size:12px;margin-top:8px;white-space:pre-wrap}
+.ok{color:var(--green);font-weight:800}.bad{color:var(--coral);font-weight:800}
+.gauge{height:9px;border-radius:6px;background:var(--line);overflow:hidden;margin-top:6px}.gauge i{display:block;height:100%;background:linear-gradient(90deg,var(--coral),var(--gold))}
+.muted{color:var(--mut);font-size:11px}.pill{display:inline-block;background:#F3ECFA;color:var(--ame);border-radius:10px;padding:2px 8px;font-size:11px;font-weight:700}
+.bloom{float:right;font-weight:800;color:var(--coral)}
+</style></head><body><div class="app">
+<h1>🌸 BLOOM English <span class="bloom" id="bloom">🌸 0</span></h1>
+<div class="sub">백엔드 풀 연동 (MVP+v1) · API <input id="api" value="http://localhost:8000" style="width:180px;display:inline-block;padding:3px;font-size:11px"> <span class="pill" id="prov">providers?</span></div>
+
+<div class="card"><h2>① 로그인 · 온보딩 · 진단</h2>
+<label>이메일</label><input id="email" value="demo@bloom.io">
+<div class="row"><button onclick="login()">로그인</button><button class="ghost" onclick="onboard()">온보딩(5060·여행)</button><button class="ghost" onclick="diagnose()">진단</button></div>
+<div id="o1" class="out" style="display:none"></div></div>
+
+<div class="card"><h2>② 학습 · 발화 채점</h2>
+<button class="ghost" onclick="loadLessons()">레슨 불러오기</button><div id="lessons"></div>
+<div id="speakBox" style="display:none">
+<label>목표 문장</label><input id="target" readonly>
+<label>내 발화 (🎙️ 또는 입력)</label><input id="said">
+<div class="row"><button onclick="mic('said')">🎙️ 말하기</button><button class="ghost" onclick="scoreLesson()">채점</button></div>
+<div id="o2" class="out" style="display:none"></div></div></div>
+
+<div class="card"><h2>③ 호감도 스토리 게임</h2>
+<button class="ghost" onclick="loadStory()">스토리 불러오기</button>
+<div id="gameBox" style="display:none">
+<div class="muted">호감도 <span id="aff">0</span>%</div><div class="gauge"><i id="affbar" style="width:0%"></i></div>
+<div id="sceneInfo" style="margin-top:8px"></div>
+<label>내 발화</label><input id="gsaid">
+<div class="row"><button onclick="mic('gsaid')">🎙️ 말하기</button><button class="ghost" onclick="gameSpeak()">발화</button></div>
+<div id="o3" class="out" style="display:none"></div></div></div>
+
+<div class="card"><h2>④ 커뮤니티 · 완주 인증</h2>
+<button class="ghost" onclick="rooms()">스터디룸</button>
+<div class="row" style="margin-top:6px"><input id="cert" placeholder="완주 인증 한마디"><button onclick="postCert()">인증(+🌸20)</button></div>
+<div id="o4" class="out" style="display:none"></div></div>
+
+<div class="card"><h2>⑤ 후기 → 추천코드 · 리워드</h2>
+<div class="row"><input id="review" placeholder="후기를 남겨주세요"><button onclick="writeReview()">후기(+🌸50)</button></div>
+<div class="row" style="margin-top:6px"><input id="code" placeholder="추천코드 입력"><button class="ghost" onclick="redeem()">코드 사용</button></div>
+<button class="ghost" onclick="refresh()">블룸 잔액 새로고침</button>
+<div id="o5" class="out" style="display:none"></div></div>
+
+<div class="card"><h2>⑥ 구독 · 완주 환급</h2>
+<div class="row"><button onclick="subscribe()">완주코스 구독</button><button class="ghost" onclick="refund()">환급 확인</button></div>
+<div id="o6" class="out" style="display:none"></div></div>
+
+<p class="muted">※ 키 없이 mock STT/LLM/PG 동작. 🎙️는 크롬 Web Speech.</p>
+</div>
+<script>
+const $=id=>document.getElementById(id), base=()=>$("api").value.replace(/\/$/,"");
+let TOKEN="";
+async function api(p,opt={}){const h=opt.headers||{};if(TOKEN)h.Authorization="Bearer "+TOKEN;
+ if(opt.body){h["Content-Type"]="application/json";opt.body=JSON.stringify(opt.body);}
+ const r=await fetch(base()+p,{...opt,headers:h});const j=await r.json().catch(()=>({}));
+ if(!r.ok)throw new Error(JSON.stringify(j));return j;}
+function show(id,v){const e=$(id);e.style.display='block';e.innerHTML=typeof v==='string'?v:JSON.stringify(v,null,1);}
+async function refresh(){try{const j=await api("/reward/ledger");$("bloom").textContent="🌸 "+j.balance;if($("o5").style.display!='none')show("o5","잔액 🌸"+j.balance);}catch(e){}}
+async function checkProv(){try{const j=await api("/meta/providers");$("prov").textContent="STT:"+j.stt.provider+" LLM:"+j.llm.provider+" PG:"+j.pg.provider;}catch(e){$("prov").textContent="api 연결?";}}
+async function login(){try{const j=await api("/auth/login",{method:"POST",body:{email:$("email").value}});TOKEN=j.access_token;show("o1","✅ 로그인 OK (user "+j.user_id+")");checkProv();refresh();}catch(e){show("o1","에러: "+e.message);}}
+async function onboard(){try{show("o1",await api("/onboarding/profile",{method:"POST",body:{segment:"5060",goal:"travel"}}));}catch(e){show("o1","로그인 먼저! "+e.message);}}
+async function diagnose(){try{const j=await api("/diagnosis/submit",{method:"POST",body:{answers:[1,0,1,0]}});show("o1","점수 "+j.score+" · "+j.weakness+" · "+j.weeks+"주");}catch(e){show("o1",e.message);}}
+let LES=null;
+async function loadLessons(){try{const a=await api("/learning/lessons?course_id=1");const b=$("lessons");b.innerHTML="";a.forEach(l=>{const x=document.createElement("button");x.className="ghost sm";x.textContent="#"+l.seq+" "+l.title;x.onclick=()=>{LES=l;$("speakBox").style.display='block';$("target").value=l.target_sentence||"(스피킹 레슨 선택)";};b.appendChild(x);});}catch(e){show("o2","로그인 먼저! "+e.message);}}
+async function scoreLesson(){try{const j=await api("/speaking/score",{method:"POST",body:{target_sentence:$("target").value,transcript:$("said").value,lesson_id:LES?LES.id:null}});show("o2",(j.passed?'<span class=ok>통과 +🌸10</span>':'<span class=bad>다시</span>')+" 점수 "+j.score+"<br>"+j.feedback);refresh();}catch(e){show("o2",e.message);}}
+let SC=null;
+async function loadStory(){try{const sc=await api("/story/1/scenes");$("gameBox").style.display='block';renderScene(sc);}catch(e){show("o3","로그인 먼저! "+e.message);}}
+function renderScene(sc){const cur=sc.find(s=>!s.locked&&s.seq===Math.max(...sc.filter(x=>!x.locked).map(x=>x.seq)))||sc[0];SC=cur;
+ $("sceneInfo").innerHTML="<b>Emma:</b> "+cur.prompt+"<br><span class=muted>힌트: "+cur.hint+" / 정답: "+cur.target_sentence+"</span>";}
+async function gameSpeak(){try{const j=await api("/story/speak",{method:"POST",body:{scene_id:SC.scene_id,transcript:$("gsaid").value}});
+ $("aff").textContent=j.affinity;$("affbar").style.width=j.affinity+"%";
+ show("o3",(j.passed?'<span class=ok>통과! 호감도↑</span>':'<span class=bad>다시</span>')+" 점수 "+j.score+"<br>"+j.feedback);
+ const sc=await api("/story/1/scenes");renderScene(sc);}catch(e){show("o3",e.message);}}
+async function rooms(){try{const a=await api("/community/rooms");show("o4",a.map(r=>"· "+r.title+" ("+r.type+", "+r.schedule+")").join("\n"));}catch(e){show("o4",e.message);}}
+async function postCert(){try{await api("/community/post",{method:"POST",body:{body:$("cert").value,is_completion:true}});show("o4","완주 인증 등록 +🌸20");refresh();}catch(e){show("o4",e.message);}}
+async function writeReview(){try{const j=await api("/social/review",{method:"POST",body:{rating:5,body:$("review").value}});show("o5","후기 등록 +🌸50 · 내 추천코드: <b>"+j.referral_code+"</b>");refresh();}catch(e){show("o5",e.message);}}
+async function redeem(){try{const j=await api("/social/redeem",{method:"POST",body:{code:$("code").value}});show("o5","코드 사용 완료: "+j.code);refresh();}catch(e){show("o5","에러: "+e.message);}}
+async function subscribe(){try{const j=await api("/billing/subscribe",{method:"POST",body:{tier:"completion"}});show("o6","구독 OK "+j.amount+"원");}catch(e){show("o6",e.message);}}
+async function refund(){try{const j=await api("/billing/refund/check?course_id=1");show("o6","진행률 "+j.progress_pct+"% · 환급대상="+j.eligible+" · "+j.note);}catch(e){show("o6",e.message);}}
+function mic(id){const SR=window.SpeechRecognition||window.webkitSpeechRecognition;if(!SR){alert("음성인식 미지원 — 직접 입력");return;}const r=new SR();r.lang="en-US";r.onresult=e=>{$(id).value=e.results[0][0].transcript;};r.start();}
+</script></body></html>

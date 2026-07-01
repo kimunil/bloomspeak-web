@@ -1,0 +1,716 @@
+{
+  "title": "BLOOM 24주 완주 로드맵 (가안)",
+  "note": "온라인 통용 표현을 참고한 오리지널 가안. 전가은(CCO) 실제 커리큘럼으로 교체 예정.",
+  "phases": [
+    {
+      "name": "1단계 · 기초 발화 (1–8주)",
+      "weeks": "1-8"
+    },
+    {
+      "name": "2단계 · 상황별 회화 (9–16주)",
+      "weeks": "9-16"
+    },
+    {
+      "name": "3단계 · 실전·완주 (17–24주)",
+      "weeks": "17-24"
+    }
+  ],
+  "lessons": [
+    {
+      "week": 1,
+      "unit": "기초",
+      "title": "인사·자기소개",
+      "situation": "처음 만난 사람과 가볍게 인사하기",
+      "sentences": [
+        {
+          "en": "Hi, I'm Eunil. Nice to meet you.",
+          "ko": "안녕하세요, 은일이에요. 만나서 반가워요."
+        },
+        {
+          "en": "Where are you from?",
+          "ko": "어디서 오셨어요?"
+        },
+        {
+          "en": "I'm from Seoul, Korea.",
+          "ko": "저는 한국 서울에서 왔어요."
+        },
+        {
+          "en": "What do you do?",
+          "ko": "무슨 일 하세요?"
+        },
+        {
+          "en": "It's great to finally meet you.",
+          "ko": "드디어 만나서 정말 반가워요."
+        }
+      ],
+      "key_expression": "Nice to meet you"
+    },
+    {
+      "week": 2,
+      "unit": "기초",
+      "title": "카페에서 주문하기",
+      "situation": "카페에서 음료 주문하고 받기",
+      "sentences": [
+        {
+          "en": "Can I get an iced latte, please?",
+          "ko": "아이스 라떼 한 잔 주시겠어요?"
+        },
+        {
+          "en": "For here or to go?",
+          "ko": "드시고 가세요, 가져가세요?"
+        },
+        {
+          "en": "For here, please.",
+          "ko": "여기서 마실게요."
+        },
+        {
+          "en": "Could I get oat milk instead?",
+          "ko": "오트 밀크로 바꿔도 될까요?"
+        },
+        {
+          "en": "Keep the change.",
+          "ko": "잔돈은 됐어요."
+        }
+      ],
+      "key_expression": "Can I get ~ please"
+    },
+    {
+      "week": 3,
+      "unit": "기초",
+      "title": "길 묻기",
+      "situation": "길을 묻고 방향 이해하기",
+      "sentences": [
+        {
+          "en": "Excuse me, how do I get to the station?",
+          "ko": "실례지만 역에 어떻게 가나요?"
+        },
+        {
+          "en": "Go straight and turn left.",
+          "ko": "직진하다가 왼쪽으로 도세요."
+        },
+        {
+          "en": "Is it far from here?",
+          "ko": "여기서 먼가요?"
+        },
+        {
+          "en": "It's about a five-minute walk.",
+          "ko": "걸어서 5분쯤 걸려요."
+        },
+        {
+          "en": "Thank you so much for your help.",
+          "ko": "도와주셔서 정말 감사해요."
+        }
+      ],
+      "key_expression": "How do I get to ~"
+    },
+    {
+      "week": 4,
+      "unit": "기초",
+      "title": "쇼핑하기",
+      "situation": "가게에서 물건 고르고 사기",
+      "sentences": [
+        {
+          "en": "Do you have this in a smaller size?",
+          "ko": "이거 더 작은 사이즈 있어요?"
+        },
+        {
+          "en": "How much is it?",
+          "ko": "얼마예요?"
+        },
+        {
+          "en": "Can I try it on?",
+          "ko": "입어봐도 될까요?"
+        },
+        {
+          "en": "I'll take it.",
+          "ko": "이걸로 할게요."
+        },
+        {
+          "en": "Do you accept cards?",
+          "ko": "카드 되나요?"
+        }
+      ],
+      "key_expression": "Can I try it on"
+    },
+    {
+      "week": 5,
+      "unit": "기초",
+      "title": "식당에서",
+      "situation": "식당에서 주문하고 요청하기",
+      "sentences": [
+        {
+          "en": "A table for two, please.",
+          "ko": "두 명 자리 부탁해요."
+        },
+        {
+          "en": "What do you recommend?",
+          "ko": "추천 메뉴가 뭐예요?"
+        },
+        {
+          "en": "I'll have the same.",
+          "ko": "저도 같은 걸로 할게요."
+        },
+        {
+          "en": "Could we get the check, please?",
+          "ko": "계산서 주시겠어요?"
+        },
+        {
+          "en": "It was delicious.",
+          "ko": "정말 맛있었어요."
+        }
+      ],
+      "key_expression": "What do you recommend"
+    },
+    {
+      "week": 6,
+      "unit": "기초",
+      "title": "감정 표현",
+      "situation": "기분과 감정을 영어로 말하기",
+      "sentences": [
+        {
+          "en": "I'm so excited about this.",
+          "ko": "이거 정말 기대돼요."
+        },
+        {
+          "en": "That makes me happy.",
+          "ko": "그거 들으니 기뻐요."
+        },
+        {
+          "en": "I'm a little nervous.",
+          "ko": "조금 긴장돼요."
+        },
+        {
+          "en": "I really appreciate it.",
+          "ko": "정말 고마워요."
+        },
+        {
+          "en": "No worries at all.",
+          "ko": "전혀 신경 쓰지 마세요."
+        }
+      ],
+      "key_expression": "I'm so excited about ~"
+    },
+    {
+      "week": 7,
+      "unit": "기초",
+      "title": "날씨·스몰토크",
+      "situation": "가벼운 잡담 이어가기",
+      "sentences": [
+        {
+          "en": "Lovely weather today, isn't it?",
+          "ko": "오늘 날씨 좋네요, 그렇죠?"
+        },
+        {
+          "en": "It's been so hot lately.",
+          "ko": "요즘 너무 덥네요."
+        },
+        {
+          "en": "Do you have any plans this weekend?",
+          "ko": "주말에 계획 있어요?"
+        },
+        {
+          "en": "Not much, just relaxing.",
+          "ko": "별거 없어요, 그냥 쉬려고요."
+        },
+        {
+          "en": "Let's catch up soon.",
+          "ko": "조만간 또 봐요."
+        }
+      ],
+      "key_expression": "~, isn't it?"
+    },
+    {
+      "week": 8,
+      "unit": "기초",
+      "title": "작별·연락처",
+      "situation": "헤어질 때 인사와 연락처 교환",
+      "sentences": [
+        {
+          "en": "It was great talking to you.",
+          "ko": "얘기 즐거웠어요."
+        },
+        {
+          "en": "Can I get your number?",
+          "ko": "연락처 받을 수 있을까요?"
+        },
+        {
+          "en": "Let's keep in touch.",
+          "ko": "계속 연락해요."
+        },
+        {
+          "en": "Take care!",
+          "ko": "잘 지내요!"
+        },
+        {
+          "en": "Have a good one.",
+          "ko": "좋은 하루 보내세요."
+        }
+      ],
+      "key_expression": "Let's keep in touch"
+    },
+    {
+      "week": 9,
+      "unit": "상황",
+      "title": "공항·입국심사",
+      "situation": "공항에서 입국 질문에 답하기",
+      "sentences": [
+        {
+          "en": "What's the purpose of your visit?",
+          "ko": "방문 목적이 무엇인가요?"
+        },
+        {
+          "en": "I'm here on vacation.",
+          "ko": "휴가차 왔어요."
+        },
+        {
+          "en": "How long will you stay?",
+          "ko": "얼마나 머무세요?"
+        },
+        {
+          "en": "For about a week.",
+          "ko": "일주일 정도요."
+        },
+        {
+          "en": "Where are you staying?",
+          "ko": "어디서 묵으세요?"
+        }
+      ],
+      "key_expression": "I'm here on vacation"
+    },
+    {
+      "week": 10,
+      "unit": "상황",
+      "title": "호텔 체크인",
+      "situation": "호텔에서 체크인하고 요청하기",
+      "sentences": [
+        {
+          "en": "I have a reservation under Kim.",
+          "ko": "Kim 이름으로 예약했어요."
+        },
+        {
+          "en": "What time is check-out?",
+          "ko": "체크아웃 몇 시예요?"
+        },
+        {
+          "en": "Could I get a late check-out?",
+          "ko": "늦은 체크아웃 가능할까요?"
+        },
+        {
+          "en": "Is breakfast included?",
+          "ko": "조식 포함인가요?"
+        },
+        {
+          "en": "Can you call a taxi for me?",
+          "ko": "택시 좀 불러주시겠어요?"
+        }
+      ],
+      "key_expression": "I have a reservation under ~"
+    },
+    {
+      "week": 11,
+      "unit": "상황",
+      "title": "대중교통",
+      "situation": "교통수단 이용하기",
+      "sentences": [
+        {
+          "en": "Does this bus go downtown?",
+          "ko": "이 버스 시내 가나요?"
+        },
+        {
+          "en": "Which line should I take?",
+          "ko": "몇 호선 타야 해요?"
+        },
+        {
+          "en": "Where do I transfer?",
+          "ko": "어디서 갈아타요?"
+        },
+        {
+          "en": "Could you tell me when to get off?",
+          "ko": "언제 내릴지 알려주시겠어요?"
+        },
+        {
+          "en": "I think I missed my stop.",
+          "ko": "제 정류장을 지나친 것 같아요."
+        }
+      ],
+      "key_expression": "Does this ~ go to ~"
+    },
+    {
+      "week": 12,
+      "unit": "상황",
+      "title": "약속 잡기",
+      "situation": "만날 약속을 조율하기",
+      "sentences": [
+        {
+          "en": "Are you free this Friday?",
+          "ko": "이번 금요일에 시간 있어요?"
+        },
+        {
+          "en": "How about 7 p.m.?",
+          "ko": "저녁 7시 어때요?"
+        },
+        {
+          "en": "That works for me.",
+          "ko": "저는 괜찮아요."
+        },
+        {
+          "en": "Let's meet in front of the cafe.",
+          "ko": "카페 앞에서 만나요."
+        },
+        {
+          "en": "I'll text you the details.",
+          "ko": "자세한 건 문자로 보낼게요."
+        }
+      ],
+      "key_expression": "That works for me"
+    },
+    {
+      "week": 13,
+      "unit": "상황",
+      "title": "전화 통화",
+      "situation": "전화로 용건 전하기",
+      "sentences": [
+        {
+          "en": "Hi, this is Eunil calling.",
+          "ko": "안녕하세요, 은일입니다."
+        },
+        {
+          "en": "Can I speak to Mr. Lee?",
+          "ko": "이 선생님 계신가요?"
+        },
+        {
+          "en": "Could you take a message?",
+          "ko": "메시지 좀 전해주시겠어요?"
+        },
+        {
+          "en": "I'll call back later.",
+          "ko": "나중에 다시 걸게요."
+        },
+        {
+          "en": "Thanks for letting me know.",
+          "ko": "알려주셔서 고마워요."
+        }
+      ],
+      "key_expression": "Can I speak to ~"
+    },
+    {
+      "week": 14,
+      "unit": "상황",
+      "title": "병원·약국",
+      "situation": "아플 때 증상 말하기",
+      "sentences": [
+        {
+          "en": "I'm not feeling well.",
+          "ko": "몸이 좀 안 좋아요."
+        },
+        {
+          "en": "I have a headache.",
+          "ko": "머리가 아파요."
+        },
+        {
+          "en": "Do I need a prescription?",
+          "ko": "처방전이 필요한가요?"
+        },
+        {
+          "en": "How often should I take this?",
+          "ko": "이거 얼마나 자주 먹어요?"
+        },
+        {
+          "en": "I'm allergic to penicillin.",
+          "ko": "페니실린 알레르기가 있어요."
+        }
+      ],
+      "key_expression": "I have a ~ (증상)"
+    },
+    {
+      "week": 15,
+      "unit": "상황",
+      "title": "관광·사진 부탁",
+      "situation": "여행지에서 부탁하기",
+      "sentences": [
+        {
+          "en": "Could you take a picture of us?",
+          "ko": "저희 사진 좀 찍어주시겠어요?"
+        },
+        {
+          "en": "One more, please!",
+          "ko": "한 장만 더요!"
+        },
+        {
+          "en": "What's the must-see around here?",
+          "ko": "여기 꼭 봐야 할 곳이 뭐예요?"
+        },
+        {
+          "en": "Is there an entrance fee?",
+          "ko": "입장료가 있나요?"
+        },
+        {
+          "en": "This view is amazing.",
+          "ko": "경치가 정말 멋져요."
+        }
+      ],
+      "key_expression": "Could you take a picture of ~"
+    },
+    {
+      "week": 16,
+      "unit": "상황",
+      "title": "문제 상황",
+      "situation": "곤란할 때 도움 요청하기",
+      "sentences": [
+        {
+          "en": "I think I'm lost.",
+          "ko": "길을 잃은 것 같아요."
+        },
+        {
+          "en": "I lost my phone.",
+          "ko": "휴대폰을 잃어버렸어요."
+        },
+        {
+          "en": "Can you help me, please?",
+          "ko": "좀 도와주시겠어요?"
+        },
+        {
+          "en": "Where's the nearest restroom?",
+          "ko": "가장 가까운 화장실이 어디예요?"
+        },
+        {
+          "en": "Is there anyone who speaks Korean?",
+          "ko": "한국어 하시는 분 있나요?"
+        }
+      ],
+      "key_expression": "Can you help me, please"
+    },
+    {
+      "week": 17,
+      "unit": "실전",
+      "title": "초대·제안",
+      "situation": "사람을 초대하고 제안하기",
+      "sentences": [
+        {
+          "en": "Why don't we grab dinner?",
+          "ko": "우리 저녁 먹을래요?"
+        },
+        {
+          "en": "You should come along.",
+          "ko": "같이 가요."
+        },
+        {
+          "en": "I'd love to, thanks!",
+          "ko": "좋아요, 고마워요!"
+        },
+        {
+          "en": "Maybe next time.",
+          "ko": "다음 기회에요."
+        },
+        {
+          "en": "It's on me.",
+          "ko": "제가 살게요."
+        }
+      ],
+      "key_expression": "Why don't we ~"
+    },
+    {
+      "week": 18,
+      "unit": "실전",
+      "title": "칭찬·리액션",
+      "situation": "자연스럽게 반응하기",
+      "sentences": [
+        {
+          "en": "That's a great idea!",
+          "ko": "정말 좋은 생각이에요!"
+        },
+        {
+          "en": "You did an amazing job.",
+          "ko": "정말 잘하셨어요."
+        },
+        {
+          "en": "I'm so proud of you.",
+          "ko": "정말 자랑스러워요."
+        },
+        {
+          "en": "No way, really?",
+          "ko": "말도 안 돼, 진짜요?"
+        },
+        {
+          "en": "That makes sense.",
+          "ko": "그렇군요, 이해돼요."
+        }
+      ],
+      "key_expression": "That makes sense"
+    },
+    {
+      "week": 19,
+      "unit": "실전",
+      "title": "사과·양해",
+      "situation": "실수했을 때 사과하기",
+      "sentences": [
+        {
+          "en": "I'm so sorry for being late.",
+          "ko": "늦어서 정말 미안해요."
+        },
+        {
+          "en": "It was my fault.",
+          "ko": "제 잘못이에요."
+        },
+        {
+          "en": "Please excuse me.",
+          "ko": "양해 부탁드려요."
+        },
+        {
+          "en": "I didn't mean to.",
+          "ko": "그럴 의도는 아니었어요."
+        },
+        {
+          "en": "It won't happen again.",
+          "ko": "다시는 안 그럴게요."
+        }
+      ],
+      "key_expression": "I didn't mean to"
+    },
+    {
+      "week": 20,
+      "unit": "실전",
+      "title": "직장·소개",
+      "situation": "일·자기 일 소개하기",
+      "sentences": [
+        {
+          "en": "I work in marketing.",
+          "ko": "마케팅 일을 해요."
+        },
+        {
+          "en": "I'm in charge of the new project.",
+          "ko": "새 프로젝트를 맡고 있어요."
+        },
+        {
+          "en": "Let me introduce my colleague.",
+          "ko": "제 동료를 소개할게요."
+        },
+        {
+          "en": "Could you send me the file?",
+          "ko": "파일 좀 보내주시겠어요?"
+        },
+        {
+          "en": "Let's circle back on this.",
+          "ko": "이건 나중에 다시 얘기해요."
+        }
+      ],
+      "key_expression": "I'm in charge of ~"
+    },
+    {
+      "week": 21,
+      "unit": "실전",
+      "title": "의견 말하기",
+      "situation": "생각을 분명히 표현하기",
+      "sentences": [
+        {
+          "en": "In my opinion, it's worth trying.",
+          "ko": "제 생각엔 해볼 만해요."
+        },
+        {
+          "en": "I see what you mean, but...",
+          "ko": "무슨 말인지 알겠지만..."
+        },
+        {
+          "en": "Let's look at it differently.",
+          "ko": "다르게 한번 봐요."
+        },
+        {
+          "en": "I totally agree with you.",
+          "ko": "전적으로 동의해요."
+        },
+        {
+          "en": "Can we find a middle ground?",
+          "ko": "절충안을 찾아볼까요?"
+        }
+      ],
+      "key_expression": "In my opinion ~"
+    },
+    {
+      "week": 22,
+      "unit": "실전",
+      "title": "스토리텔링",
+      "situation": "경험을 이야기로 풀기",
+      "sentences": [
+        {
+          "en": "So, here's what happened.",
+          "ko": "그래서 이런 일이 있었어요."
+        },
+        {
+          "en": "Long story short, we made it.",
+          "ko": "간단히 말해, 우리 해냈어요."
+        },
+        {
+          "en": "You won't believe this.",
+          "ko": "이거 믿기 힘들 거예요."
+        },
+        {
+          "en": "It turned out great.",
+          "ko": "결과적으로 잘 됐어요."
+        },
+        {
+          "en": "That was a game changer.",
+          "ko": "그게 판도를 바꿨어요."
+        }
+      ],
+      "key_expression": "Long story short"
+    },
+    {
+      "week": 23,
+      "unit": "실전",
+      "title": "문화·소셜",
+      "situation": "모임에서 어울리기",
+      "sentences": [
+        {
+          "en": "I'm down for whatever.",
+          "ko": "뭐든 다 좋아요."
+        },
+        {
+          "en": "Let's grab a bite.",
+          "ko": "간단히 뭐 좀 먹어요."
+        },
+        {
+          "en": "Count me in.",
+          "ko": "저도 낄게요."
+        },
+        {
+          "en": "Let's make it happen.",
+          "ko": "한번 해봐요."
+        },
+        {
+          "en": "Same here.",
+          "ko": "저도 그래요."
+        }
+      ],
+      "key_expression": "Count me in"
+    },
+    {
+      "week": 24,
+      "unit": "실전",
+      "title": "완주·마무리",
+      "situation": "목표를 돌아보고 다짐하기",
+      "sentences": [
+        {
+          "en": "I can't believe I made it this far.",
+          "ko": "여기까지 온 게 안 믿겨요."
+        },
+        {
+          "en": "It was totally worth it.",
+          "ko": "정말 할 만한 가치가 있었어요."
+        },
+        {
+          "en": "I'm proud of how far I've come.",
+          "ko": "여기까지 온 제가 자랑스러워요."
+        },
+        {
+          "en": "This is just the beginning.",
+          "ko": "이건 시작일 뿐이에요."
+        },
+        {
+          "en": "Thank you for growing with me.",
+          "ko": "함께 자라줘서 고마워요."
+        }
+      ],
+      "key_expression": "It was worth it"
+    }
+  ]
+}

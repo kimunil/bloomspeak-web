@@ -1,0 +1,61 @@
+{
+  "title": "블룸 뱃지 (가안)",
+  "items": [
+    {
+      "id": "sprout",
+      "name": "새싹",
+      "glyph": "새싹",
+      "color": "#0F6E56",
+      "cond": "첫 레슨 완료",
+      "reward": 20
+    },
+    {
+      "id": "streak",
+      "name": "불꽃",
+      "glyph": "7일",
+      "color": "#F5820A",
+      "cond": "7일 연속 학습",
+      "reward": 100
+    },
+    {
+      "id": "talker",
+      "name": "수다쟁이",
+      "glyph": "발화",
+      "color": "#E8307A",
+      "cond": "발화 100회",
+      "reward": 150
+    },
+    {
+      "id": "story",
+      "name": "이야기꾼",
+      "glyph": "스토리",
+      "color": "#6B3FA0",
+      "cond": "스토리 1편 클리어",
+      "reward": 120
+    },
+    {
+      "id": "buddy",
+      "name": "든든한 짝",
+      "glyph": "페어",
+      "color": "#1B2A6B",
+      "cond": "페어 세션 5회",
+      "reward": 120
+    },
+    {
+      "id": "reviewer",
+      "name": "후기왕",
+      "glyph": "후기",
+      "color": "#D4AF37",
+      "cond": "후기 작성",
+      "reward": 100
+    },
+    {
+      "id": "finisher",
+      "name": "완주자",
+      "glyph": "완주",
+      "color": "#F04E6A",
+      "cond": "24주 완주",
+      "reward": 1000
+    }
+  ]
+}

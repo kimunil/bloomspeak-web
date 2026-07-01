@@ -1,0 +1,287 @@
+{
+  "title": "Campus Story",
+  "character": "Noah",
+  "segment": "2030",
+  "synopsis": "해외 어학연수 첫날. 같은 반 친구 Noah와 영어로 부딪히며 캠퍼스 생활에 적응하는 이야기.",
+  "chapters": [
+    {
+      "no": 1,
+      "season": 1,
+      "title": "첫 수업",
+      "scenes": [
+        {
+          "seq": 1,
+          "who": "Noah",
+          "line": "Hey, is this seat taken? I'm Noah.",
+          "target": "No, go ahead! I'm Eunil. Nice to meet you.",
+          "hint": "자리 권하기 + 인사",
+          "gain": 13
+        },
+        {
+          "seq": 2,
+          "who": "Noah",
+          "line": "First day too? I'm a little nervous.",
+          "target": "Same here, but it'll be fun.",
+          "hint": "공감 + 격려",
+          "gain": 14
+        },
+        {
+          "seq": 3,
+          "who": "Noah",
+          "line": "Want to be study partners?",
+          "target": "Sounds great. Let's help each other.",
+          "hint": "제안 수락",
+          "gain": 16
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "season": 1,
+      "title": "그룹 프로젝트",
+      "scenes": [
+        {
+          "seq": 1,
+          "who": "Noah",
+          "line": "Our topic is 'a place you love.' Any ideas?",
+          "target": "How about my hometown, Seoul?",
+          "hint": "아이디어 제안",
+          "gain": 15
+        },
+        {
+          "seq": 2,
+          "who": "Noah",
+          "line": "Perfect! Can you present that part?",
+          "target": "Sure, I'll take that section.",
+          "hint": "역할 맡기",
+          "gain": 16
+        },
+        {
+          "seq": 3,
+          "who": "Noah",
+          "line": "We nailed it! Great teamwork.",
+          "target": "Couldn't have done it without you.",
+          "hint": "공 돌리기",
+          "gain": 18
+        }
+      ]
+    },
+    {
+      "no": 3,
+      "season": 1,
+      "title": "캠퍼스 축제",
+      "scenes": [
+        {
+          "seq": 1,
+          "who": "Noah",
+          "line": "The festival's tonight! Are you coming?",
+          "target": "Wouldn't miss it. What's the plan?",
+          "hint": "적극 답하기",
+          "gain": 15
+        },
+        {
+          "seq": 2,
+          "who": "Noah",
+          "line": "Food trucks, music, the whole thing. Let's go!",
+          "target": "I'm in. Let's make it a night.",
+          "hint": "신나게 받기",
+          "gain": 16
+        },
+        {
+          "seq": 3,
+          "who": "Noah",
+          "line": "Best semester ever, thanks to you.",
+          "target": "Right back at you, my friend.",
+          "hint": "따뜻하게 마무리",
+          "gain": 20
+        }
+      ]
+    },
+    {
+      "no": 4,
+      "season": 2,
+      "title": "시즌2 · 발표 준비",
+      "scenes": [
+        {
+          "seq": 1,
+          "who": "Noah",
+          "line": "Big presentation tomorrow. Are you ready?",
+          "target": "Almost. Can we practice together?",
+          "hint": "도움 요청",
+          "gain": 15
+        },
+        {
+          "seq": 2,
+          "who": "Noah",
+          "line": "Sure! Just speak slowly and breathe.",
+          "target": "Thanks, that really calms me down.",
+          "hint": "고마움 표현",
+          "gain": 16
+        },
+        {
+          "seq": 3,
+          "who": "Noah",
+          "line": "You've got this. I believe in you.",
+          "target": "With you here, I'm not worried.",
+          "hint": "신뢰 표현",
+          "gain": 18
+        }
+      ]
+    },
+    {
+      "no": 5,
+      "season": 2,
+      "title": "시즌2 · 도서관 밤샘",
+      "scenes": [
+        {
+          "seq": 1,
+          "who": "Noah",
+          "line": "Finals week. Coffee or tea to survive?",
+          "target": "Coffee, definitely. It's going to be a long night.",
+          "hint": "선택 + 표현",
+          "gain": 15
+        },
+        {
+          "seq": 2,
+          "who": "Noah",
+          "line": "Let's quiz each other to stay awake.",
+          "target": "Good idea. You go first.",
+          "hint": "제안 받기",
+          "gain": 16
+        },
+        {
+          "seq": 3,
+          "who": "Noah",
+          "line": "We make a great study team, honestly.",
+          "target": "Couldn't ask for a better partner.",
+          "hint": "칭찬 받기",
+          "gain": 18
+        }
+      ]
+    },
+    {
+      "no": 6,
+      "season": 2,
+      "title": "시즌2 · 합격 발표",
+      "scenes": [
+        {
+          "seq": 1,
+          "who": "Noah",
+          "line": "Results are out! Did you check yours?",
+          "target": "Not yet — I'm too nervous!",
+          "hint": "감정 표현",
+          "gain": 15
+        },
+        {
+          "seq": 2,
+          "who": "Noah",
+          "line": "We both passed! Top of the class!",
+          "target": "No way! We actually did it!",
+          "hint": "기쁨 표현",
+          "gain": 17
+        },
+        {
+          "seq": 3,
+          "who": "Noah",
+          "line": "Celebration's on me tonight.",
+          "target": "You're the best. Let's go!",
+          "hint": "신나게 받기",
+          "gain": 20
+        }
+      ]
+    },
+    {
+      "no": 7,
+      "season": 3,
+      "title": "시즌3 · 졸업",
+      "scenes": [
+        {
+          "seq": 1,
+          "who": "Noah",
+          "line": "Can you believe the program's ending?",
+          "target": "It went by so fast. I'll miss this.",
+          "hint": "아쉬움 표현",
+          "gain": 16
+        },
+        {
+          "seq": 2,
+          "who": "Noah",
+          "line": "Your English is amazing now. Truly.",
+          "target": "I learned so much from you too.",
+          "hint": "공 나누기",
+          "gain": 18
+        },
+        {
+          "seq": 3,
+          "who": "Noah",
+          "line": "Let's not lose touch, okay?",
+          "target": "Never. You're a friend for life.",
+          "hint": "약속하기",
+          "gain": 20
+        }
+      ]
+    },
+    {
+      "no": 8,
+      "season": 3,
+      "title": "시즌3 · 각자의 길",
+      "scenes": [
+        {
+          "seq": 1,
+          "who": "Noah",
+          "line": "I got a job back home. What about you?",
+          "target": "That's amazing! I'm heading back to Seoul.",
+          "hint": "축하 + 근황",
+          "gain": 16
+        },
+        {
+          "seq": 2,
+          "who": "Noah",
+          "line": "Different cities, but same friendship, right?",
+          "target": "Distance won't change a thing.",
+          "hint": "우정 표현",
+          "gain": 18
+        },
+        {
+          "seq": 3,
+          "who": "Noah",
+          "line": "Promise we'll meet again someday.",
+          "target": "It's a promise. Until then!",
+          "hint": "약속하기",
+          "gain": 20
+        }
+      ]
+    },
+    {
+      "no": 9,
+      "season": 3,
+      "title": "시즌3 · 재회 약속",
+      "scenes": [
+        {
+          "seq": 1,
+          "who": "Noah",
+          "line": "Guess what — I'm visiting Seoul next year!",
+          "target": "Seriously? I'll show you around!",
+          "hint": "환영 표현",
+          "gain": 17
+        },
+        {
+          "seq": 2,
+          "who": "Noah",
+          "line": "You'll be my personal guide, deal?",
+          "target": "Deal. Get ready for the best trip.",
+          "hint": "자신있게 받기",
+          "gain": 19
+        },
+        {
+          "seq": 3,
+          "who": "Noah",
+          "line": "From classmates to lifelong friends.",
+          "target": "Here's to the next chapter, together.",
+          "hint": "멋지게 마무리",
+          "gain": 24
+        }
+      ]
+    }
+  ]
+}

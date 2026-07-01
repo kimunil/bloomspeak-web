@@ -1,0 +1,287 @@
+{
+  "title": "New York Story",
+  "character": "Emma",
+  "segment": "2030",
+  "synopsis": "뉴욕에 막 이사 온 당신. 옆집 Emma와 영어로 대화하며 친구가 되어가는 이야기.",
+  "chapters": [
+    {
+      "no": 1,
+      "season": 1,
+      "title": "첫 인사",
+      "scenes": [
+        {
+          "seq": 1,
+          "who": "Emma",
+          "line": "Hi! You must be the new neighbor. I'm Emma.",
+          "target": "Hi Emma, nice to meet you. I'm Eunil.",
+          "hint": "인사하고 이름 말하기",
+          "gain": 12
+        },
+        {
+          "seq": 2,
+          "who": "Emma",
+          "line": "Where did you move from?",
+          "target": "I moved here from Seoul.",
+          "hint": "어디서 왔는지",
+          "gain": 12
+        },
+        {
+          "seq": 3,
+          "who": "Emma",
+          "line": "Welcome! Do you want to grab a coffee sometime?",
+          "target": "Sure, I'd love to!",
+          "hint": "좋다고 답하기",
+          "gain": 16
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "season": 1,
+      "title": "카페 데이트",
+      "scenes": [
+        {
+          "seq": 1,
+          "who": "Emma",
+          "line": "There's a cozy place around the corner. What do you usually drink?",
+          "target": "I usually get an iced latte.",
+          "hint": "즐겨 마시는 것",
+          "gain": 14
+        },
+        {
+          "seq": 2,
+          "who": "Emma",
+          "line": "Nice choice! So, what brought you to New York?",
+          "target": "I came here for a new job.",
+          "hint": "온 이유",
+          "gain": 14
+        },
+        {
+          "seq": 3,
+          "who": "Emma",
+          "line": "That's exciting! We should hang out more.",
+          "target": "I'd really like that.",
+          "hint": "긍정 마무리",
+          "gain": 18
+        }
+      ]
+    },
+    {
+      "no": 3,
+      "season": 1,
+      "title": "주말 계획",
+      "scenes": [
+        {
+          "seq": 1,
+          "who": "Emma",
+          "line": "Any plans this weekend?",
+          "target": "Not yet. Any ideas?",
+          "hint": "되묻기",
+          "gain": 14
+        },
+        {
+          "seq": 2,
+          "who": "Emma",
+          "line": "There's a farmers market on Saturday. Want to come?",
+          "target": "Count me in!",
+          "hint": "함께 가자",
+          "gain": 16
+        },
+        {
+          "seq": 3,
+          "who": "Emma",
+          "line": "Great! It's a date — as friends, of course.",
+          "target": "Haha, sounds perfect.",
+          "hint": "가볍게 받기",
+          "gain": 20
+        }
+      ]
+    },
+    {
+      "no": 4,
+      "season": 2,
+      "title": "시즌2 · 재회",
+      "scenes": [
+        {
+          "seq": 1,
+          "who": "Emma",
+          "line": "Long time no see! How have you been?",
+          "target": "I've been great, thanks. How about you?",
+          "hint": "안부 주고받기",
+          "gain": 14
+        },
+        {
+          "seq": 2,
+          "who": "Emma",
+          "line": "Busy, but good. Your English got so much better!",
+          "target": "Thanks! I've been practicing every day.",
+          "hint": "칭찬에 답하기",
+          "gain": 16
+        },
+        {
+          "seq": 3,
+          "who": "Emma",
+          "line": "It really shows. Want to celebrate?",
+          "target": "Absolutely, let's do it!",
+          "hint": "제안 수락",
+          "gain": 18
+        }
+      ]
+    },
+    {
+      "no": 5,
+      "season": 2,
+      "title": "시즌2 · 루프탑 파티",
+      "scenes": [
+        {
+          "seq": 1,
+          "who": "Emma",
+          "line": "My friends are dying to meet you. Come say hi!",
+          "target": "Sure, I'd love to meet them.",
+          "hint": "소개 받기",
+          "gain": 15
+        },
+        {
+          "seq": 2,
+          "who": "Emma",
+          "line": "Everyone, this is Eunil. Tell them about yourself!",
+          "target": "Hi everyone, I'm Eunil. I just moved here from Seoul.",
+          "hint": "자기소개(실전)",
+          "gain": 18
+        },
+        {
+          "seq": 3,
+          "who": "Emma",
+          "line": "See? You fit right in. They love you already.",
+          "target": "That means a lot. Thank you.",
+          "hint": "고마움 표현",
+          "gain": 20
+        }
+      ]
+    },
+    {
+      "no": 6,
+      "season": 2,
+      "title": "시즌2 · 다음 챕터",
+      "scenes": [
+        {
+          "seq": 1,
+          "who": "Emma",
+          "line": "So... there's something I wanted to ask you.",
+          "target": "Sure, what's up?",
+          "hint": "편하게 되묻기",
+          "gain": 16
+        },
+        {
+          "seq": 2,
+          "who": "Emma",
+          "line": "Would you want to take a weekend trip together?",
+          "target": "That sounds amazing. I'm in.",
+          "hint": "제안 수락",
+          "gain": 18
+        },
+        {
+          "seq": 3,
+          "who": "Emma",
+          "line": "Perfect. This is just the beginning, right?",
+          "target": "Definitely. Here's to new adventures!",
+          "hint": "멋지게 마무리",
+          "gain": 22
+        }
+      ]
+    },
+    {
+      "no": 7,
+      "season": 3,
+      "title": "시즌3 · 주말 여행",
+      "scenes": [
+        {
+          "seq": 1,
+          "who": "Emma",
+          "line": "We made it to the coast! Isn't this view amazing?",
+          "target": "It's breathtaking. I'm so glad we came.",
+          "hint": "감탄 표현",
+          "gain": 15
+        },
+        {
+          "seq": 2,
+          "who": "Emma",
+          "line": "Let's find a place to eat. Any cravings?",
+          "target": "I could really go for some seafood.",
+          "hint": "먹고 싶은 것",
+          "gain": 16
+        },
+        {
+          "seq": 3,
+          "who": "Emma",
+          "line": "Perfect. There's a spot by the pier.",
+          "target": "Lead the way, I'm starving.",
+          "hint": "가볍게 따라가기",
+          "gain": 18
+        }
+      ]
+    },
+    {
+      "no": 8,
+      "season": 3,
+      "title": "시즌3 · 작은 다툼",
+      "scenes": [
+        {
+          "seq": 1,
+          "who": "Emma",
+          "line": "Hey, you seemed a little quiet today. Everything okay?",
+          "target": "I'm okay, just a bit tired.",
+          "hint": "솔직하게 답하기",
+          "gain": 15
+        },
+        {
+          "seq": 2,
+          "who": "Emma",
+          "line": "You can talk to me, you know.",
+          "target": "Thanks. It means a lot to hear that.",
+          "hint": "고마움 표현",
+          "gain": 17
+        },
+        {
+          "seq": 3,
+          "who": "Emma",
+          "line": "Always. We're in this together.",
+          "target": "I'm really lucky to have you.",
+          "hint": "진심 전하기",
+          "gain": 20
+        }
+      ]
+    },
+    {
+      "no": 9,
+      "season": 3,
+      "title": "시즌3 · 새로운 시작",
+      "scenes": [
+        {
+          "seq": 1,
+          "who": "Emma",
+          "line": "A year already. Can you believe it?",
+          "target": "Time really flew by.",
+          "hint": "시간 빠름 표현",
+          "gain": 16
+        },
+        {
+          "seq": 2,
+          "who": "Emma",
+          "line": "Your English is incredible now. I'm proud of you.",
+          "target": "I couldn't have done it without you.",
+          "hint": "공 돌리기",
+          "gain": 18
+        },
+        {
+          "seq": 3,
+          "who": "Emma",
+          "line": "So... what's next for us?",
+          "target": "Whatever it is, let's face it together.",
+          "hint": "멋지게 마무리",
+          "gain": 24
+        }
+      ]
+    }
+  ]
+}

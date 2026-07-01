@@ -1,0 +1,287 @@
+{
+  "title": "Seoul Story",
+  "character": "Liam",
+  "segment": "all",
+  "synopsis": "서울을 처음 방문한 외국인 친구 Liam. 당신이 영어로 서울을 안내하며 친해지는 이야기.",
+  "chapters": [
+    {
+      "no": 1,
+      "season": 1,
+      "title": "공항 픽업",
+      "scenes": [
+        {
+          "seq": 1,
+          "who": "Liam",
+          "line": "Wow, I finally made it to Seoul! Are you Eunil?",
+          "target": "Yes! Welcome to Seoul, Liam. How was your flight?",
+          "hint": "환영 + 안부",
+          "gain": 13
+        },
+        {
+          "seq": 2,
+          "who": "Liam",
+          "line": "Long, but I'm so excited. Where should we go first?",
+          "target": "Let's drop your bags and grab some food.",
+          "hint": "제안하기",
+          "gain": 14
+        },
+        {
+          "seq": 3,
+          "who": "Liam",
+          "line": "Sounds perfect. I've heard Korean food is amazing.",
+          "target": "You're going to love it. Trust me.",
+          "hint": "자신있게 답하기",
+          "gain": 16
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "season": 1,
+      "title": "한강 나들이",
+      "scenes": [
+        {
+          "seq": 1,
+          "who": "Liam",
+          "line": "This river park is huge! What do people do here?",
+          "target": "They have picnics, ride bikes, and relax.",
+          "hint": "활동 설명",
+          "gain": 15
+        },
+        {
+          "seq": 2,
+          "who": "Liam",
+          "line": "Can we get that chicken-and-beer thing I read about?",
+          "target": "Chimaek! Great choice, let's order some.",
+          "hint": "메뉴 추천",
+          "gain": 16
+        },
+        {
+          "seq": 3,
+          "who": "Liam",
+          "line": "This is the best night ever. Thank you for this.",
+          "target": "Anytime. I'm happy you're here.",
+          "hint": "진심 표현",
+          "gain": 18
+        }
+      ]
+    },
+    {
+      "no": 3,
+      "season": 1,
+      "title": "전통시장",
+      "scenes": [
+        {
+          "seq": 1,
+          "who": "Liam",
+          "line": "So many stalls! How do I order without Korean?",
+          "target": "Just point and say 'this one, please.' I'll help.",
+          "hint": "도움 주기",
+          "gain": 15
+        },
+        {
+          "seq": 2,
+          "who": "Liam",
+          "line": "That tteokbokki looks spicy. Should I try it?",
+          "target": "Go for it, but start with a small bite.",
+          "hint": "조언하기",
+          "gain": 16
+        },
+        {
+          "seq": 3,
+          "who": "Liam",
+          "line": "Spicy but amazing! You're the best guide ever.",
+          "target": "Haha, I'm glad you're enjoying Seoul.",
+          "hint": "겸손하게 받기",
+          "gain": 20
+        }
+      ]
+    },
+    {
+      "no": 4,
+      "season": 2,
+      "title": "시즌2 · 경복궁 한복",
+      "scenes": [
+        {
+          "seq": 1,
+          "who": "Liam",
+          "line": "These hanbok are gorgeous! Should I really wear one?",
+          "target": "Of course! It's the best way to enjoy the palace.",
+          "hint": "권하기",
+          "gain": 15
+        },
+        {
+          "seq": 2,
+          "who": "Liam",
+          "line": "How do I look? Be honest.",
+          "target": "You look great. It really suits you.",
+          "hint": "칭찬하기",
+          "gain": 16
+        },
+        {
+          "seq": 3,
+          "who": "Liam",
+          "line": "Let's take a photo in front of the gate!",
+          "target": "Good idea. Say kimchi!",
+          "hint": "가볍게 받기",
+          "gain": 18
+        }
+      ]
+    },
+    {
+      "no": 5,
+      "season": 2,
+      "title": "시즌2 · 노래방",
+      "scenes": [
+        {
+          "seq": 1,
+          "who": "Liam",
+          "line": "A noraebang? I can't sing at all!",
+          "target": "Don't worry, no one's judging. Just have fun.",
+          "hint": "안심시키기",
+          "gain": 15
+        },
+        {
+          "seq": 2,
+          "who": "Liam",
+          "line": "Okay, pick a song for me — something easy.",
+          "target": "How about a classic everyone knows?",
+          "hint": "제안하기",
+          "gain": 16
+        },
+        {
+          "seq": 3,
+          "who": "Liam",
+          "line": "That was so much fun! Best night in Seoul.",
+          "target": "I'm so glad you enjoyed it.",
+          "hint": "기쁨 표현",
+          "gain": 18
+        }
+      ]
+    },
+    {
+      "no": 6,
+      "season": 2,
+      "title": "시즌2 · 작별 준비",
+      "scenes": [
+        {
+          "seq": 1,
+          "who": "Liam",
+          "line": "I can't believe my trip is almost over.",
+          "target": "Time flew by, didn't it?",
+          "hint": "공감하기",
+          "gain": 15
+        },
+        {
+          "seq": 2,
+          "who": "Liam",
+          "line": "Thank you for showing me the real Seoul.",
+          "target": "It was my pleasure, honestly.",
+          "hint": "겸손하게 받기",
+          "gain": 17
+        },
+        {
+          "seq": 3,
+          "who": "Liam",
+          "line": "Promise you'll visit me someday?",
+          "target": "I promise. Let's stay in touch.",
+          "hint": "약속하기",
+          "gain": 20
+        }
+      ]
+    },
+    {
+      "no": 7,
+      "season": 3,
+      "title": "시즌3 · 영상통화",
+      "scenes": [
+        {
+          "seq": 1,
+          "who": "Liam",
+          "line": "Hey! Can you see me okay? How's Seoul?",
+          "target": "Crystal clear! Seoul misses you.",
+          "hint": "가볍게 답하기",
+          "gain": 16
+        },
+        {
+          "seq": 2,
+          "who": "Liam",
+          "line": "I've been telling everyone about the food here.",
+          "target": "You should bring them next time!",
+          "hint": "제안하기",
+          "gain": 17
+        },
+        {
+          "seq": 3,
+          "who": "Liam",
+          "line": "Actually, I'm planning another trip. Free next month?",
+          "target": "For you? Always. Let's plan it.",
+          "hint": "환영하기",
+          "gain": 19
+        }
+      ]
+    },
+    {
+      "no": 8,
+      "season": 3,
+      "title": "시즌3 · 재회",
+      "scenes": [
+        {
+          "seq": 1,
+          "who": "Liam",
+          "line": "I'm back! And this time I learned some Korean.",
+          "target": "No way! Let's hear it.",
+          "hint": "놀람 표현",
+          "gain": 16
+        },
+        {
+          "seq": 2,
+          "who": "Liam",
+          "line": "Annyeong! Did I say it right?",
+          "target": "Perfect! Your accent is great.",
+          "hint": "칭찬하기",
+          "gain": 18
+        },
+        {
+          "seq": 3,
+          "who": "Liam",
+          "line": "We make a good team, you and I.",
+          "target": "The best. Here's to more adventures.",
+          "hint": "멋지게 마무리",
+          "gain": 22
+        }
+      ]
+    },
+    {
+      "no": 9,
+      "season": 3,
+      "title": "시즌3 · 함께하는 계획",
+      "scenes": [
+        {
+          "seq": 1,
+          "who": "Liam",
+          "line": "What if we traveled somewhere new together?",
+          "target": "I'd love that. Where to?",
+          "hint": "되묻기",
+          "gain": 17
+        },
+        {
+          "seq": 2,
+          "who": "Liam",
+          "line": "Anywhere, as long as we go together.",
+          "target": "Then let's make a bucket list.",
+          "hint": "제안하기",
+          "gain": 19
+        },
+        {
+          "seq": 3,
+          "who": "Liam",
+          "line": "Deal. This is just the start, right?",
+          "target": "Definitely. The best is yet to come.",
+          "hint": "희망차게 마무리",
+          "gain": 24
+        }
+      ]
+    }
+  ]
+}

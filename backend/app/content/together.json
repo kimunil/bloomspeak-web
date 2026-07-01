@@ -1,0 +1,133 @@
+{
+  "title": "투게더 원데이 (가안)",
+  "events": [
+    {
+      "id": 1,
+      "cat": "CAFÉ",
+      "emoji": "카페",
+      "title": "카페 영어 모임",
+      "where": "성수",
+      "when": "일 14:00",
+      "price": 19000,
+      "host": "사장님은 한국어, 코치가 영어로 중계",
+      "desc": "커피 한 잔과 함께 가볍게 영어로 주문·스몰토크를 연습해요. 부담 없이 첫 발화를 떼는 자리.",
+      "phrases": [
+        "Can I get an iced latte?",
+        "For here, please.",
+        "It smells amazing!"
+      ]
+    },
+    {
+      "id": 2,
+      "cat": "COOK",
+      "emoji": "쿠킹",
+      "title": "쿠킹 클래스 영어",
+      "where": "연남",
+      "when": "토 11:00",
+      "price": 29000,
+      "host": "레시피를 영어로 따라가며 요리",
+      "desc": "재료·조리 동작을 영어로 말하며 파스타를 만들어요. 손이 바빠도 입은 더 바쁘게.",
+      "phrases": [
+        "Chop the onions.",
+        "Add a pinch of salt.",
+        "It tastes great!"
+      ]
+    },
+    {
+      "id": 3,
+      "cat": "DANCE",
+      "emoji": "댄스",
+      "title": "K-pop 댄스 영어",
+      "where": "홍대",
+      "when": "금 19:00",
+      "price": 24000,
+      "host": "동작 큐를 영어로",
+      "desc": "안무 카운트와 동작을 영어로 들으며 몸으로 익혀요. 즐겁게 움직이며 표현 흡수.",
+      "phrases": [
+        "Five, six, seven, eight!",
+        "Turn to the left.",
+        "One more time!"
+      ]
+    },
+    {
+      "id": 4,
+      "cat": "FITNESS",
+      "emoji": "헬스",
+      "title": "헬스장 PT 영어",
+      "where": "강남",
+      "when": "수 20:00",
+      "price": 27000,
+      "host": "운동 지시를 영어로",
+      "desc": "트레이너의 영어 큐로 운동하며 몸과 영어를 함께 단련. 실전 명령형 표현 집중.",
+      "phrases": [
+        "Keep your back straight.",
+        "Ten more reps!",
+        "Great form!"
+      ]
+    },
+    {
+      "id": 5,
+      "cat": "TRAVEL",
+      "emoji": "여행",
+      "title": "여행 영어 소셜",
+      "where": "이태원",
+      "when": "토 18:00",
+      "price": 22000,
+      "host": "여행 상황극 + 외국인 게스트",
+      "desc": "공항·호텔·길찾기 상황극을 외국인 게스트와 함께. 진짜 여행처럼 떠듬떠듬.",
+      "phrases": [
+        "Where's the gate?",
+        "I'd like a window seat.",
+        "How do I get downtown?"
+      ]
+    },
+    {
+      "id": 6,
+      "cat": "CRAFT",
+      "emoji": "공방",
+      "title": "가죽 공방 영어",
+      "where": "성수",
+      "when": "토 15:00",
+      "price": 34000,
+      "host": "공예 과정을 영어로 안내",
+      "desc": "가죽 카드지갑을 만들며 도구·과정을 영어로. 손끝에 집중하며 자연스레 표현이 붙어요.",
+      "phrases": [
+        "Cut along the line.",
+        "Hold it steady.",
+        "It came out beautifully!"
+      ]
+    },
+    {
+      "id": 7,
+      "cat": "BAKE",
+      "emoji": "베이킹",
+      "title": "베이킹 클래스 영어",
+      "where": "망원",
+      "when": "일 11:00",
+      "price": 31000,
+      "host": "레시피·계량을 영어로",
+      "desc": "스콘과 쿠키를 구우며 계량·오븐 표현을 익혀요. 달콤한 냄새와 함께 입이 트입니다.",
+      "phrases": [
+        "Preheat the oven.",
+        "Mix until smooth.",
+        "They smell delicious!"
+      ]
+    },
+    {
+      "id": 8,
+      "cat": "BOARD",
+      "emoji": "보드",
+      "title": "보드게임 영어 나이트",
+      "where": "건대",
+      "when": "금 19:30",
+      "price": 18000,
+      "host": "룰 설명·플레이를 영어로",
+      "desc": "가벼운 보드게임을 영어로 진행. 규칙을 묻고 차례를 주고받으며 자연스레 대화량 폭발.",
+      "phrases": [
+        "Whose turn is it?",
+        "It's your move.",
+        "I win this round!"
+      ]
+    }
+  ]
+}
